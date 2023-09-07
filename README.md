@@ -1,2 +1,2 @@
-# convert
-Created with CodeSandbox
+# Конвертатор
+Конвертатор валюты на React
