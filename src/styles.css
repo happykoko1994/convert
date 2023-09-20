@@ -7,5 +7,16 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: bisque;
+  background-color: #221f2f;
+  box-sizing: border-box;
+}
+.App::after{
+  content: "";
+  position: absolute;
+  background-color: #ed2ff0;
+  width: 120px;
+  height: 120px;
+  top: 60%;
+  left: 75%;
+  filter: blur(150px);
 }

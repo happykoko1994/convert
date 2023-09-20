@@ -5,7 +5,9 @@ const defaulCurrencies = ["RUB", "TG", "DOLL"];
 function Block({ value, onChangeValue, onChangeCurrency, currency }) {
   return (
     <div className="block-wrapper">
+      
       <div className="curses">
+        
         {defaulCurrencies.map((cur) => (
           <li
             onClick={() => onChangeCurrency(cur)}
@@ -19,7 +21,7 @@ function Block({ value, onChangeValue, onChangeCurrency, currency }) {
       <input
         value={value}
         onChange={(e) => onChangeValue(e.target.value)}
-        type="number"
+        type="text"
         className="number"
       ></input>
     </div>
